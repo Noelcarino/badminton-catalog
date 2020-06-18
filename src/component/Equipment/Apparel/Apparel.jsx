@@ -2,10 +2,15 @@ import React from 'react'
 import styles from './Apparel.module.scss'
 
 
+// import {Link} from 'react-router-dom';
+
+
 const Apparel = () => {
     return (
         <div className={styles.container}>
-            <h1>apparel</h1>
+            {/* <Link to='/apparel'> */}
+            <h1>Apparel</h1>
+            {/* </Link> */}
         </div>
     )
 }

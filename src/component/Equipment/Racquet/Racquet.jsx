@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './Racquet.module.scss'
 
+import {Link} from 'react-router-dom';
 
-function Racquet() {
+const Racquet = () => {
     return (
         <div className={styles.container}>
-            <h1>racquet</h1>
+            <Link to='/racquet'>
+            <h1>Racquet</h1>
+            </Link>
         </div>
     )
 }

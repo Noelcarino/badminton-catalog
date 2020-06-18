@@ -1,3 +1,12 @@
 .container{
     border: solid;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    .category{
+        // border: solid;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
