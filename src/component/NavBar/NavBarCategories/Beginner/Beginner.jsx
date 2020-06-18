@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './Beginner.module.scss'
 
 const Beginner = () => {
     return (

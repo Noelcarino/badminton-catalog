@@ -3,11 +3,15 @@
     padding: 0 3vw;
     display: flex;
     justify-content: space-between;
-    .category{
+    .categoryContainer{
         // border: solid;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
+        .link{
+            border-bottom: solid;
+        }
     }
 }

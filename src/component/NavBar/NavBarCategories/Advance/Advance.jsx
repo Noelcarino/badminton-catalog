@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styles from './Advance.module.scss'
 const Advance = () => {
     return (
         <div>

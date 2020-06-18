@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styles from './Intermediate.module.scss'
 const Intermediate = () => {
     return (
         <div>
