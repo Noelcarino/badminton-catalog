@@ -38,8 +38,8 @@ const CategoryCards = () => {
             {dataSet.map(({title, image, link}) => (
                 <Link to={link}>
                     <div className={styles.cardContainer}>
-                        <img className={styles.image} src={image}/>
-                        <h1 className={styles.name}>{title}</h1>
+                        <img className={styles.image} src={image} alt='cardImage'/>
+                        <button className={styles.title}>{title}</button>
                     </div>
                 </Link>
             ))}

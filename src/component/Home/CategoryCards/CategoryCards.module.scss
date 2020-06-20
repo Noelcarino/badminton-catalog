@@ -2,20 +2,33 @@
     // border: solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    height: 100%;
+    justify-content: space-between;
+    padding: 0 8%;
+    // width: 80%;
+    // margin-left: 2%;
+    // height: 100%;
     .cardContainer{
-        border: solid;
+        border: solid black;
+        background-position: center;
+        background-size: cover;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        // margin-top: 10%;
         width: 20vw;
-        height: 20vw;
+        height: 30vh;
 
         .image{
-            height: 23vh;
+            height: 15vh;
+        }
+        .title{
+            margin-top: 20vh;
+            border: none;
+            padding: 3% 5%;
+            font-size: 1em;
+            background-color: rgba(255, 255, 255, 0.61);
+
         }
     }
 }

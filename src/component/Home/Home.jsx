@@ -1,17 +1,10 @@
 import React from 'react';
-import categoryCards from './CategoryCards/CategoryCards'
-
-import styles from './Home.module.scss'
+import SlideShow from './slideShow/slideShow'
 import CategoryCards from './CategoryCards/CategoryCards';
+// import paintSmear from '../../image/slideshow/paintSmear.png'
+import styles from './Home.module.scss'
 
 const LandingPage = () => {
-    const images = [
-        'image1',
-        'image2',
-        'image3',
-        'image4',
-    ]
-
 
     return (
         <div className={styles.container}>
@@ -21,7 +14,8 @@ const LandingPage = () => {
                     <h2>add some description of the website and what we offer</h2>
                 </div>
                 <div className={styles.image}>
-                    <h1>have a rotating set of images. probably 1 for each category. Create an array of images and rotate through them probably? this is where the actual "slider" feature will be</h1>
+                    {/* <img className={styles.paintSmear} src={paintSmear}/> */}
+                    <SlideShow/>
                 </div>
             </div>
             <div className={styles.categoryCards}>
