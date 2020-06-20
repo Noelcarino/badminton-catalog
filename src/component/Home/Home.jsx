@@ -5,6 +5,14 @@ import styles from './Home.module.scss'
 import CategoryCards from './CategoryCards/CategoryCards';
 
 const LandingPage = () => {
+    const images = [
+        'image1',
+        'image2',
+        'image3',
+        'image4',
+    ]
+
+
     return (
         <div className={styles.container}>
             <div className={styles.slider}>

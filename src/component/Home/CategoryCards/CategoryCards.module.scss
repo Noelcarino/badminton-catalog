@@ -1,7 +1,10 @@
 .container{
+    // border: solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
     .cardContainer{
         border: solid;
         display: flex;
@@ -9,6 +12,10 @@
         align-items: center;
         justify-content: center;
         width: 20vw;
-        height: 15vw;
+        height: 20vw;
+
+        .image{
+            height: 23vh;
+        }
     }
 }

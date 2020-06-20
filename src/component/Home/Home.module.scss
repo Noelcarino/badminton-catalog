@@ -3,8 +3,9 @@
 
     .slider{
         border: solid blue;
-        height: 60vh;
+        height: 50vh;
         display: flex;
+        align-items: center;
 
         .intro{
             // border: solid;
@@ -18,5 +19,8 @@
     }
     .categoryCards{
         // border: solid orange;   
+        height: 40vh;
+
+
     }
 }
