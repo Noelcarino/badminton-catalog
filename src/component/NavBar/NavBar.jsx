@@ -5,7 +5,7 @@ import styles from './NavBar.module.scss';
 
 import testLogo from '../../image/testLogo.png';
 
-import {Link} from "react-router-dom";
+import  {Link } from "react-router-dom";
 
 const NavBar = () => {
     const [hoverBeginner, setHoverBeginner] = useState(false)

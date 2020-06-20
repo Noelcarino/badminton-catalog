@@ -1,9 +1,41 @@
 import React from 'react'
+import styles from './CategoryCards.module.scss'
 
+import { Link } from 'react-router-dom'
 const CategoryCards = () => {
+    const dataSet = [
+        {
+            name: 'Apparel',
+            image:'image',
+            link:'/apparel',
+        },
+        {
+            name: 'Racquets',
+            image:'image',
+            link:'/racquet',
+        },
+        {
+            name: 'Shoes',
+            image:'image',
+            link:'/shoes',
+        },
+        {
+            name: 'Strings',
+            image:'image',
+            link:'/strings',
+        }
+    ]
+
     return (
-        <div>
-            <h1>create an array with objects with the value of image and category from there we can map through it to display each. so probably gonna need a cards and a card category should i even separte and just make stick to one with a data component instead.</h1>
+        <div className={styles.container}>
+            {dataSet.map((data) => (
+                <Link to={data.link}>
+                    <div className={styles.cardContainer}>
+                        <h1 className={styles.image}>{data.image}</h1>
+                        <h1 className={styles.name}>{data.name}</h1>
+                    </div>
+                </Link>
+            ))}
         </div>
     )
 }
