@@ -1,0 +1,22 @@
+.container{
+
+
+    .slider{
+        border: solid blue;
+        height: 60vh;
+        display: flex;
+
+        .intro{
+            border: solid;
+            width: 50vw;
+
+        }
+        .image{
+            border: solid;
+            width: 50vw;
+        }
+    }
+    .categoryCards{
+        border: solid orange;   
+    }
+}
