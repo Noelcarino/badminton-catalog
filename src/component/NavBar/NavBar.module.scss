@@ -1,0 +1,27 @@
+.container{
+    // border: solid;
+    // padding: 0 3vw;
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding: 0 5%;
+    margin: 0 1%;
+
+    .categoryContainer{
+        // border: solid;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .link{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .searchBar{
+        // border: solid;
+    }
+}
