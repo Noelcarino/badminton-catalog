@@ -15,6 +15,14 @@
             flex-direction: column;
             align-items: center;
             padding-top: 10vh;
+            .intro{
+                font-size: 2.5em;
+                margin: 0;
+            }
+            .description{
+                font-size: 1em;
+                padding-bottom: 5%;
+            }
 
         }
         .rightSide{
@@ -22,9 +30,9 @@
             background-image: url(../../image/slideshow/paintSmear.png);
             background-position: center;
             background-size: cover;
-            height: 95.75vh;
+            height: 99.75vh;
             margin-top: -5vh;
-            padding-top: 4vh;
+            // padding-top: vh;
             display: flex;
             align-items: flex-start;
         

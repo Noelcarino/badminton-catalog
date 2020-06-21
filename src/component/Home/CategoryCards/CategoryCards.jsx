@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './CategoryCards.module.scss'
 
-import apparel from '../../../image/card/apparel.png';
-import racquet from '../../../image/card/racquet.png';
-import shoe from '../../../image/card/shoes.png';
-import strings from '../../../image/card/strings.png';
+import apparel from '../../../image/card/apparel.JPG';
+import racquet from '../../../image/card/racquet.JPG';
+import shoe from '../../../image/card/shoes.JPG';
+import strings from '../../../image/card/strings.JPG';
 
 import { Link } from 'react-router-dom'
 

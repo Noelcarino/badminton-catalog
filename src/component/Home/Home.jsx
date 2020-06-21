@@ -10,8 +10,8 @@ const LandingPage = () => {
         <div className={styles.container}>
             <div className={styles.slider}>
                 <div className={styles.leftSide}>
-                    <h1>THINK OF A WELCOME SENTENCE</h1>
-                    <h2>add some description of the website and what we offer</h2>
+                    <h1 className={styles.intro}>WELCOME TO THE SHUTTLE</h1>
+                    <p className={styles.description}>Home of all your badminton needs</p>
                     <div className={styles.categoryCardsContainer}>
                         <CategoryCards/>    
                     </div>
