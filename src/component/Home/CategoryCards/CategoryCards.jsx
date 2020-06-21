@@ -4,7 +4,7 @@ import styles from './CategoryCards.module.scss'
 import apparel from '../../../image/card/apparel.png';
 import racquet from '../../../image/card/racquet.png';
 import shoe from '../../../image/card/shoes.png';
-import strings from '../../../image/card/strings.jpg';
+import strings from '../../../image/card/strings.png';
 
 import { Link } from 'react-router-dom'
 
@@ -35,14 +35,16 @@ const CategoryCards = () => {
 
     return (
         <div className={styles.container}>
-            {dataSet.map(({title, image, link}) => (
-                <Link to={link}>
-                    <div className={styles.cardContainer}>
-                        <img className={styles.image} src={image} alt='cardImage'/>
-                        <button className={styles.title}>{title}</button>
-                    </div>
-                </Link>
-            ))}
+            <div className={styles.cardContainer}>
+                {dataSet.map(({title, image, link}) => (
+                    <Link className={styles.link} to={link}>
+                        <div className={styles.card}>
+                            <img className={styles.image} src={image} alt='cardImage'/>
+                            <h4 className={styles.title}>{title}</h4>
+                        </div>
+                    </Link>
+                ))}
+            </div>
         </div>
     )
 }

@@ -9,17 +9,16 @@ const LandingPage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.slider}>
-                <div className={styles.intro}>
+                <div className={styles.leftSide}>
                     <h1>THINK OF A WELCOME SENTENCE</h1>
                     <h2>add some description of the website and what we offer</h2>
+                    <div className={styles.categoryCardsContainer}>
+                        <CategoryCards/>    
+                    </div>
                 </div>
-                <div className={styles.image}>
-                    {/* <img className={styles.paintSmear} src={paintSmear}/> */}
+                <div className={styles.rightSide}>
                     <SlideShow/>
                 </div>
-            </div>
-            <div className={styles.categoryCards}>
-                <CategoryCards/>
             </div>
         </div>
     )

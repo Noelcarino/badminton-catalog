@@ -44,12 +44,6 @@ const NavBar = () => {
                         <Link className={styles.link} to='/advance'>Advance</Link>
                         {hoverAdvance? <DropDownMenu/>:null}
                     </div>
-
-
-
-
-
-
                 </div>
 
                 <input className={styles.searchBar} placeholder='Search'></input>
