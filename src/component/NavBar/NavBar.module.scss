@@ -8,17 +8,18 @@
     align-items: center;
     // padding: 0 5%;
     margin: 0 1%;
-
+    
     .categoryContainer{
         // border: solid;
         width: 30%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-
+        
         .link{
             text-decoration: none;
             color: black;
+            border-bottom: solid 2px;
         }
     }
     .searchBar{
