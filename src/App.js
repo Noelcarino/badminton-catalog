@@ -1,5 +1,5 @@
 import React from 'react';
-import { Beginner, Intermediate, Advance, NavBar, Apparel, Racquet, Shoes, Strings, Home } from './component';
+import { Beginner, Intermediate, Advance, NavBar, DropDownMenu, Apparel, Racquet, Shoes, Strings, Home } from './component';
 import styles from './App.module.scss'
 
 import { BrowserRouter as Router,Switch,Route,Link } from "react-router-dom";
@@ -9,6 +9,7 @@ const App = () => {
         <>
             <Router>
                 <NavBar/>
+                {/* <DropDownMenu/> */}
                 <Switch>
                     <Route component={Beginner} path='/beginner'/>
                     <Route component={Intermediate} path='/intermediate'/>

@@ -1,6 +1,7 @@
 export { default as Beginner } from './NavBar/NavBarCategories/Beginner/Beginner';
 export { default as Intermediate } from './NavBar/NavBarCategories/Intermediate/Intermediate';
 export { default as Advance } from './NavBar/NavBarCategories/Advance/Advance';
+export { default as DropDownMenu } from './NavBar/DropDownMenu/DropDownMenu';
 
 export { default as Apparel } from './Equipment/Apparel/Apparel';
 export { default as NavBar } from './NavBar/NavBar';

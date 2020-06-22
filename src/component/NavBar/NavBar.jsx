@@ -26,8 +26,17 @@ const NavBar = () => {
                     onMouseLeave={() => setHoverBeginner(false)}
                     >
                         <Link className={styles.link} to='/beginner'>Beginner</Link>
-                        {hoverBeginner? <DropDownMenu/>:null}
+                        {hoverBeginner?  <DropDownMenu/>:null}
+                        
                     </div>
+
+
+
+
+
+
+
+
 
                     <div className={styles.dropDownWrapper}
                     onMouseEnter={() => setHoverIntermediate(true)}

@@ -1,13 +1,16 @@
 .container{
     // border: solid;
     // padding: 0 3vw;
+    background-color: rgb(17, 17, 16);    
     position: sticky;
     z-index: 2;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 70px;
+    color: white;
     // padding: 0 5%;
-    margin: 0 1%;
+    // margin: 0 1%;
     
     .categoryContainer{
         // border: solid;
@@ -15,11 +18,23 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin: 0 10%;
+        .dropDownWrapper{
+            &:hover{
+                color: white;
+            }
+        }
         
-        .link{
+        .link{    
             text-decoration: none;
-            color: black;
+            color: white;
+            position: fixed;
+            z-index: 4;
             border-bottom: solid 2px;
+            &:hover{
+                color: white;
+                cursor: pointer;
+            }
         }
     }
     .searchBar{
