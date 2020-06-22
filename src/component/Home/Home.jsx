@@ -8,6 +8,8 @@ const LandingPage = () => {
 
     return (
         <div className={styles.container}>
+            <div className={styles.background}>
+
             <div className={styles.slider}>
                 <div className={styles.leftSide}>
                     <h1 className={styles.intro}>WELCOME TO THE SHUTTLE</h1>
@@ -19,6 +21,7 @@ const LandingPage = () => {
                 <div className={styles.rightSide}>
                     <SlideShow/>
                 </div>
+            </div>
             </div>
         </div>
     )

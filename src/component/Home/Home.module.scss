@@ -1,6 +1,14 @@
 .container{
     // border: solid red;
     // height: 100vh;
+    // opacity: 50%;
+    .background{
+        background-image: url(../../image/background2.jpg);
+        // background-size: 90%;
+        // background-repeat: no-repeat;
+        // opacity: 50%;
+
+    }
     .slider{
         // border: solid 2px;
         display: flex;
