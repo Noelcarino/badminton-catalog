@@ -1,17 +1,22 @@
 .container{
-    // border: solid red;
+    border-left: solid black;
+    border-right: solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    margin-top: 3vh;
+    margin-top: 2vh;
     height: 10vh;
     width: 5vw;
     background-color: black;
     .link{
         text-decoration: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
         color:white;
+        border-bottom: solid white;
         }
     // padding-top: 10vh;
 }
