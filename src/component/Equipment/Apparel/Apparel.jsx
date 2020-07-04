@@ -14,7 +14,7 @@ const Apparel = () => {
             .then(res => {
                 setState(res);
             })
-    })
+    }, [])
 
     let apparelToRender;
 
