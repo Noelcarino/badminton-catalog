@@ -6,7 +6,7 @@
 
     if (!$dbc) throw new Exception("db connection error " . mysqli_connect_error());
 
-    $query = "SELECT * FROM racquets";
+    $query = "SELECT * FROM apparel";
 
     $result = mysqli_query($dbc, $query);
 

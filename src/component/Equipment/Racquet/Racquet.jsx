@@ -29,8 +29,8 @@ const Racquet = () => {
         <div className={styles.container}>
             <Link to='/racquet'>
             <h1>Racquet</h1>
-            {itemsToRender}
             </Link>
+            {itemsToRender}
         </div>
     )
 }
