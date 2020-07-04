@@ -1,7 +1,10 @@
 <?php
-    header('Content-Type: application/json');
-    header('Access-Control-Allow-Origin: localhost:8080');
 
+  DEFINE ('DB_USER','studentdb');
+  DEFINE ('DB_PASSWORD','root2');
+  DEFINE ('DB_HOST','localhost');
+  DEFINE ('DB_NAME','students');
 
-    echo "hello";
-?>
+  $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+ ?>
