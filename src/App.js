@@ -1,4 +1,5 @@
 import React from 'react';
+import Test from './test';
 import { Beginner, Intermediate, Advance, NavBar, DropDownMenu, Apparel, Racquet, Shoes, Strings, Home } from './component';
 import styles from './App.module.scss'
 
@@ -21,6 +22,7 @@ const App = () => {
                     <Route component={Home} exact path='/'/>
                 </Switch>
             </Router>
+            <Test />
         </>
     )
 }
