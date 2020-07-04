@@ -11,3 +11,4 @@
 - - [x] Racquets
 - - [x] Apparel
 - - [ ] Shoes
+- - [ ] Strings
