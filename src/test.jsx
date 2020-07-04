@@ -29,14 +29,17 @@ export default class Test extends React.Component {
             console.log(this.state.data);
             return (
                 <div>
-
+                    {this.state.data.map(data => {
+                        return (
+                            <div>{data.fName} {data.lName}</div>
+                        )
+                    })}
                 </div>
             )
         } else {
             return (
                 <div>
-
-                    loading..
+                    loading
                 </div>
             )
         }
