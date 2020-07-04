@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class Test extends React.Component {
     componentDidMount(){
-        var url = "/testdb.php";
+        var url = "/api/test.php";
         fetch(url,{
             headers: {
                 "Accept" : "application/json",
