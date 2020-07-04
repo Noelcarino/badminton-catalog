@@ -1,24 +1,44 @@
 import React from 'react';
 
 export default class Test extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            dataFetched: false,
+            data: []
+        }
+    }
     componentDidMount(){
-        var url = "/api/test.php";
+        var url = "/api/getdata.php";
         fetch(url,{
             headers: {
                 "Accept" : "application/json",
                 "Content-Type" : "application/json"
             }}
-        ).then(res => res.text())
+        ).then(res => res.json())
         .then(res =>{
-            console.log(res);
+            this.setState({
+                data: res,
+                dataFetched: true
+            })
         })
+        console.log(this.state);
     }
     render(){
-        return (
-            <div>
+        if (this.state.dataFetched){
+            console.log(this.state.data);
+            return (
+                <div>
 
-                hello
-            </div>
-        )
+                </div>
+            )
+        } else {
+            return (
+                <div>
+
+                    loading..
+                </div>
+            )
+        }
     }
 }
