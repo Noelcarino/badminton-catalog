@@ -1,4 +1,5 @@
 import React from 'react'
+import ApparelItem from './apparelitem';
 import styles from './Apparel.module.scss'
 import { useEffect, useState } from 'react';
 
@@ -20,7 +21,8 @@ const Apparel = () => {
 
     if (data) {
         apparelToRender = data.map( apparel => {
-            return <div key={apparel.id}>{apparel.apparel_name}</div>
+            return <ApparelItem key={apparel.id} apparel={apparel} />
+            // return <div key={apparel.id}>{apparel.apparel_name}</div>
         })
     } else {
         apparelToRender = "Loading..";
@@ -30,8 +32,10 @@ const Apparel = () => {
             {/* <Link to='/apparel'> */}
             <h1>Apparel</h1>
             {/* </Link> */}
+            <div className={styles.apparel_container}>
+                {apparelToRender}
+            </div>
 
-            {apparelToRender}
         </div>
     )
 }
