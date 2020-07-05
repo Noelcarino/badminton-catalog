@@ -25,6 +25,11 @@
     max-width: 250px;
     margin-bottom: 25px;
     border: 1px solid black;
+    cursor: pointer;
+}
+.apparel_image {
+    height: 100%;
+    margin: auto;
 }
 .apparel_item > p {
     margin: 0px auto;
@@ -35,4 +40,5 @@
     width: 90%;
     height: 100px;
     border: 2px solid grey;
+    display: flex;
 }

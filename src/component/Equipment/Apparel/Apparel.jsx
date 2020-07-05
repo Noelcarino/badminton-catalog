@@ -1,3 +1,12 @@
+/*
+    7/5/2020 10:08 am - adding documentation 
+
+    #1 - Added ApparelItem Component to display separate apparel data
+    #2 - 
+
+*/
+
+
 import React from 'react'
 import ApparelItem from './apparelitem';
 import styles from './Apparel.module.scss'
@@ -22,7 +31,6 @@ const Apparel = () => {
     if (data) {
         apparelToRender = data.map( apparel => {
             return <ApparelItem key={apparel.id} apparel={apparel} />
-            // return <div key={apparel.id}>{apparel.apparel_name}</div>
         })
     } else {
         apparelToRender = "Loading..";
