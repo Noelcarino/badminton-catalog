@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container > h1 {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.apparel_container {
+    padding: 25px 0px;
+    height: 90%;
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.apparel_item {
+    margin: 0px auto;
+    padding: 5px;
+    width: 23%;
+    min-width: 200px;
+    max-width: 250px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
+.apparel_item > p {
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.apparel_fake_image {
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    border: 2px solid grey;
+}
